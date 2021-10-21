@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LKLocationSearchView" customModule="Local_Knowledge" customModuleProvider="target">
+            <connections>
+                <outlet property="clearFieldIcon" destination="2xx-t1-8gn" id="7JJ-oT-b6S"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="KXF-rU-f6j"/>
+                <outlet property="searchField" destination="kNk-EZ-qyL" id="Mxp-DE-pgj"/>
+                <outlet property="searchIcon" destination="mVo-Sy-JN5" id="oJu-ns-ntM"/>
+                <outlet property="searchInputFieldLeadingEdgeConstraint" destination="nae-ZM-2If" id="fd4-yf-nlM"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="364" placeholderIntrinsicHeight="50" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kNk-EZ-qyL" userLabel="Search Input Field">
+                    <rect key="frame" x="50" y="0.0" width="324" height="50"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="magnifyingglass" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="mVo-Sy-JN5" userLabel="Search Icon">
+                    <rect key="frame" x="10" y="11" width="30" height="28"/>
+                    <color key="tintColor" name="appSecondaryColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="La4-YT-OP6"/>
+                        <constraint firstAttribute="width" constant="30" id="h78-Gt-y28"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2xx-t1-8gn">
+                    <rect key="frame" x="384" y="15" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="LHR-IV-DQF"/>
+                        <constraint firstAttribute="width" constant="20" id="jys-Mx-6qe"/>
+                    </constraints>
+                    <color key="tintColor" name="appSecondaryColor"/>
+                    <state key="normal" title="Button" image="xmark" catalog="system"/>
+                    <connections>
+                        <action selector="clearIconTapped:" destination="-1" eventType="touchUpInside" id="4Pw-SB-huI"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="kNk-EZ-qyL" secondAttribute="bottom" id="Enp-A0-Mmc"/>
+                <constraint firstItem="kNk-EZ-qyL" firstAttribute="leading" secondItem="mVo-Sy-JN5" secondAttribute="trailing" constant="10" id="HPx-EN-FKG"/>
+                <constraint firstItem="2xx-t1-8gn" firstAttribute="leading" secondItem="kNk-EZ-qyL" secondAttribute="trailing" constant="10" id="YYG-54-mAE"/>
+                <constraint firstItem="2xx-t1-8gn" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="bzp-Qe-x9E"/>
+                <constraint firstAttribute="trailing" secondItem="2xx-t1-8gn" secondAttribute="trailing" constant="10" id="eN4-Yh-T6x"/>
+                <constraint firstItem="mVo-Sy-JN5" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="m67-ur-Qi5"/>
+                <constraint firstItem="kNk-EZ-qyL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="50" id="nae-ZM-2If"/>
+                <constraint firstItem="kNk-EZ-qyL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="pWe-ne-kYp"/>
+                <constraint firstItem="mVo-Sy-JN5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="v1y-Gt-Eef"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-262.31884057971018" y="-162.72321428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="xmark" catalog="system" width="128" height="113"/>
+        <namedColor name="appSecondaryColor">
+            <color red="0.78823529411764703" green="0.81568627450980391" blue="0.79607843137254897" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		531CBCDB2721E091001BAD1B /* LKConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531CBCDA2721E091001BAD1B /* LKConstants.swift */; };
+		531CBCDE2721E1F9001BAD1B /* LKLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531CBCDD2721E1F9001BAD1B /* LKLocationService.swift */; };
 		535832DB26C15F9B00ADA436 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535832DA26C15F9B00ADA436 /* AppDelegate.swift */; };
 		535832DD26C15F9B00ADA436 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535832DC26C15F9B00ADA436 /* SceneDelegate.swift */; };
-		535832DF26C15F9B00ADA436 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535832DE26C15F9B00ADA436 /* ViewController.swift */; };
-		535832E226C15F9B00ADA436 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 535832E026C15F9B00ADA436 /* Main.storyboard */; };
 		535832E426C15F9E00ADA436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 535832E326C15F9E00ADA436 /* Assets.xcassets */; };
 		535832E726C15F9E00ADA436 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 535832E526C15F9E00ADA436 /* LaunchScreen.storyboard */; };
 		535832F226C15F9E00ADA436 /* Local_KnowledgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535832F126C15F9E00ADA436 /* Local_KnowledgeTests.swift */; };
 		535832FD26C15F9E00ADA436 /* Local_KnowledgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535832FC26C15F9E00ADA436 /* Local_KnowledgeUITests.swift */; };
+		5358330C26C1656F00ADA436 /* LKHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5358330B26C1656F00ADA436 /* LKHomeViewController.xib */; };
+		5358330F26C165C700ADA436 /* LKHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358330E26C165C700ADA436 /* LKHomeViewController.swift */; };
+		5358331326C1671500ADA436 /* LKBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358331226C1671500ADA436 /* LKBaseNavigationController.swift */; };
+		5358331526C1672D00ADA436 /* LKBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358331426C1672D00ADA436 /* LKBaseViewController.swift */; };
+		5358331726C1674100ADA436 /* LKBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358331626C1674100ADA436 /* LKBaseView.swift */; };
+		5358331C26C17D6400ADA436 /* LKMainItemTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358331A26C17D6400ADA436 /* LKMainItemTableCellView.swift */; };
+		5358331D26C17D6400ADA436 /* LKMainItemTableCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5358331B26C17D6400ADA436 /* LKMainItemTableCellView.xib */; };
+		5358331F26C29D1C00ADA436 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5358331E26C29D1C00ADA436 /* Colors.xcassets */; };
+		53EE48DD26C6B3EC00DCA04F /* LKHomeScreenNavigationControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EE48DC26C6B3EB00DCA04F /* LKHomeScreenNavigationControllerViewController.swift */; };
+		53EE48E126C6B9C800DCA04F /* LKLocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EE48E026C6B9C800DCA04F /* LKLocationSearchView.swift */; };
+		53EE48E526C6BC7C00DCA04F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53EE48E426C6BC7C00DCA04F /* Images.xcassets */; };
+		53EE48E726C7DFE500DCA04F /* LKLocationSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53EE48E626C7DFE500DCA04F /* LKLocationSearchView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		531CBCDA2721E091001BAD1B /* LKConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKConstants.swift; sourceTree = "<group>"; };
+		531CBCDD2721E1F9001BAD1B /* LKLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKLocationService.swift; sourceTree = "<group>"; };
 		535832D726C15F9B00ADA436 /* Local Knowledge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Local Knowledge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		535832DA26C15F9B00ADA436 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		535832DC26C15F9B00ADA436 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		535832DE26C15F9B00ADA436 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		535832E126C15F9B00ADA436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		535832E326C15F9E00ADA436 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		535832E626C15F9E00ADA436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		535832E826C15F9E00ADA436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +61,18 @@
 		535832F826C15F9E00ADA436 /* Local KnowledgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Local KnowledgeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		535832FC26C15F9E00ADA436 /* Local_KnowledgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Local_KnowledgeUITests.swift; sourceTree = "<group>"; };
 		535832FE26C15F9E00ADA436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5358330B26C1656F00ADA436 /* LKHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LKHomeViewController.xib; sourceTree = "<group>"; };
+		5358330E26C165C700ADA436 /* LKHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKHomeViewController.swift; sourceTree = "<group>"; };
+		5358331226C1671500ADA436 /* LKBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKBaseNavigationController.swift; sourceTree = "<group>"; };
+		5358331426C1672D00ADA436 /* LKBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKBaseViewController.swift; sourceTree = "<group>"; };
+		5358331626C1674100ADA436 /* LKBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKBaseView.swift; sourceTree = "<group>"; };
+		5358331A26C17D6400ADA436 /* LKMainItemTableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKMainItemTableCellView.swift; sourceTree = "<group>"; };
+		5358331B26C17D6400ADA436 /* LKMainItemTableCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LKMainItemTableCellView.xib; sourceTree = "<group>"; };
+		5358331E26C29D1C00ADA436 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		53EE48DC26C6B3EB00DCA04F /* LKHomeScreenNavigationControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKHomeScreenNavigationControllerViewController.swift; sourceTree = "<group>"; };
+		53EE48E026C6B9C800DCA04F /* LKLocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKLocationSearchView.swift; sourceTree = "<group>"; };
+		53EE48E426C6BC7C00DCA04F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		53EE48E626C7DFE500DCA04F /* LKLocationSearchView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LKLocationSearchView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +100,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		531CBCD92721E04F001BAD1B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				531CBCDA2721E091001BAD1B /* LKConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		531CBCDC2721E1DC001BAD1B /* Location-Provider */ = {
+			isa = PBXGroup;
+			children = (
+				531CBCDD2721E1F9001BAD1B /* LKLocationService.swift */,
+			);
+			path = "Location-Provider";
+			sourceTree = "<group>";
+		};
+		531CBCDF2721E24D001BAD1B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				531CBCDC2721E1DC001BAD1B /* Location-Provider */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		535832CE26C15F9B00ADA436 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +147,15 @@
 		535832D926C15F9B00ADA436 /* Local Knowledge */ = {
 			isa = PBXGroup;
 			children = (
+				5358331026C1669B00ADA436 /* Common */,
+				5358330A26C1654300ADA436 /* Application */,
 				535832DA26C15F9B00ADA436 /* AppDelegate.swift */,
 				535832DC26C15F9B00ADA436 /* SceneDelegate.swift */,
-				535832DE26C15F9B00ADA436 /* ViewController.swift */,
-				535832E026C15F9B00ADA436 /* Main.storyboard */,
 				535832E326C15F9E00ADA436 /* Assets.xcassets */,
 				535832E526C15F9E00ADA436 /* LaunchScreen.storyboard */,
 				535832E826C15F9E00ADA436 /* Info.plist */,
+				5358331E26C29D1C00ADA436 /* Colors.xcassets */,
+				53EE48E426C6BC7C00DCA04F /* Images.xcassets */,
 			);
 			path = "Local Knowledge";
 			sourceTree = "<group>";
@@ -126,6 +176,64 @@
 				535832FE26C15F9E00ADA436 /* Info.plist */,
 			);
 			path = "Local KnowledgeUITests";
+			sourceTree = "<group>";
+		};
+		5358330A26C1654300ADA436 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				53EE48DE26C6B90300DCA04F /* Knowledge Feed */,
+				531CBCDF2721E24D001BAD1B /* Services */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		5358330D26C1658A00ADA436 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5358330B26C1656F00ADA436 /* LKHomeViewController.xib */,
+				5358330E26C165C700ADA436 /* LKHomeViewController.swift */,
+				53EE48DC26C6B3EB00DCA04F /* LKHomeScreenNavigationControllerViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		5358331026C1669B00ADA436 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				531CBCD92721E04F001BAD1B /* Constants */,
+				5358331126C166B000ADA436 /* Views */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5358331126C166B000ADA436 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5358331226C1671500ADA436 /* LKBaseNavigationController.swift */,
+				5358331426C1672D00ADA436 /* LKBaseViewController.swift */,
+				5358331626C1674100ADA436 /* LKBaseView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		53EE48DE26C6B90300DCA04F /* Knowledge Feed */ = {
+			isa = PBXGroup;
+			children = (
+				5358330D26C1658A00ADA436 /* View Controllers */,
+				53EE48DF26C6B93D00DCA04F /* Views */,
+			);
+			path = "Knowledge Feed";
+			sourceTree = "<group>";
+		};
+		53EE48DF26C6B93D00DCA04F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				53EE48E026C6B9C800DCA04F /* LKLocationSearchView.swift */,
+				53EE48E626C7DFE500DCA04F /* LKLocationSearchView.xib */,
+				5358331A26C17D6400ADA436 /* LKMainItemTableCellView.swift */,
+				5358331B26C17D6400ADA436 /* LKMainItemTableCellView.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +339,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5358331F26C29D1C00ADA436 /* Colors.xcassets in Resources */,
+				5358331D26C17D6400ADA436 /* LKMainItemTableCellView.xib in Resources */,
+				53EE48E526C6BC7C00DCA04F /* Images.xcassets in Resources */,
+				5358330C26C1656F00ADA436 /* LKHomeViewController.xib in Resources */,
 				535832E726C15F9E00ADA436 /* LaunchScreen.storyboard in Resources */,
 				535832E426C15F9E00ADA436 /* Assets.xcassets in Resources */,
-				535832E226C15F9B00ADA436 /* Main.storyboard in Resources */,
+				53EE48E726C7DFE500DCA04F /* LKLocationSearchView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +370,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				535832DF26C15F9B00ADA436 /* ViewController.swift in Sources */,
+				531CBCDB2721E091001BAD1B /* LKConstants.swift in Sources */,
+				5358331726C1674100ADA436 /* LKBaseView.swift in Sources */,
 				535832DB26C15F9B00ADA436 /* AppDelegate.swift in Sources */,
+				53EE48DD26C6B3EC00DCA04F /* LKHomeScreenNavigationControllerViewController.swift in Sources */,
+				5358331C26C17D6400ADA436 /* LKMainItemTableCellView.swift in Sources */,
+				5358330F26C165C700ADA436 /* LKHomeViewController.swift in Sources */,
+				53EE48E126C6B9C800DCA04F /* LKLocationSearchView.swift in Sources */,
+				5358331326C1671500ADA436 /* LKBaseNavigationController.swift in Sources */,
 				535832DD26C15F9B00ADA436 /* SceneDelegate.swift in Sources */,
+				531CBCDE2721E1F9001BAD1B /* LKLocationService.swift in Sources */,
+				5358331526C1672D00ADA436 /* LKBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +416,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		535832E026C15F9B00ADA436 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				535832E126C15F9B00ADA436 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		535832E526C15F9E00ADA436 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +478,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +533,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -439,6 +551,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K4WLM5X85S;
 				INFOPLIST_FILE = "Local Knowledge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +571,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K4WLM5X85S;
 				INFOPLIST_FILE = "Local Knowledge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
