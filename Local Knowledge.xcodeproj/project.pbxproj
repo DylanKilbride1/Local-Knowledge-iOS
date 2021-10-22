@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53147FB02722AEEB00D30591 /* LKKnowledgeFeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53147FAF2722AEEB00D30591 /* LKKnowledgeFeedViewModel.swift */; };
 		531CBCDB2721E091001BAD1B /* LKConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531CBCDA2721E091001BAD1B /* LKConstants.swift */; };
 		531CBCDE2721E1F9001BAD1B /* LKLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531CBCDD2721E1F9001BAD1B /* LKLocationService.swift */; };
 		535832DB26C15F9B00ADA436 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535832DA26C15F9B00ADA436 /* AppDelegate.swift */; };
@@ -23,7 +24,7 @@
 		5358331C26C17D6400ADA436 /* LKMainItemTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358331A26C17D6400ADA436 /* LKMainItemTableCellView.swift */; };
 		5358331D26C17D6400ADA436 /* LKMainItemTableCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5358331B26C17D6400ADA436 /* LKMainItemTableCellView.xib */; };
 		5358331F26C29D1C00ADA436 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5358331E26C29D1C00ADA436 /* Colors.xcassets */; };
-		53EE48DD26C6B3EC00DCA04F /* LKHomeScreenNavigationControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EE48DC26C6B3EB00DCA04F /* LKHomeScreenNavigationControllerViewController.swift */; };
+		53EE48DD26C6B3EC00DCA04F /* LKNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EE48DC26C6B3EB00DCA04F /* LKNavigationController.swift */; };
 		53EE48E126C6B9C800DCA04F /* LKLocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EE48E026C6B9C800DCA04F /* LKLocationSearchView.swift */; };
 		53EE48E526C6BC7C00DCA04F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53EE48E426C6BC7C00DCA04F /* Images.xcassets */; };
 		53EE48E726C7DFE500DCA04F /* LKLocationSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53EE48E626C7DFE500DCA04F /* LKLocationSearchView.xib */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53147FAF2722AEEB00D30591 /* LKKnowledgeFeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKKnowledgeFeedViewModel.swift; sourceTree = "<group>"; };
 		531CBCDA2721E091001BAD1B /* LKConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKConstants.swift; sourceTree = "<group>"; };
 		531CBCDD2721E1F9001BAD1B /* LKLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKLocationService.swift; sourceTree = "<group>"; };
 		535832D726C15F9B00ADA436 /* Local Knowledge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Local Knowledge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,7 +71,7 @@
 		5358331A26C17D6400ADA436 /* LKMainItemTableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKMainItemTableCellView.swift; sourceTree = "<group>"; };
 		5358331B26C17D6400ADA436 /* LKMainItemTableCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LKMainItemTableCellView.xib; sourceTree = "<group>"; };
 		5358331E26C29D1C00ADA436 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
-		53EE48DC26C6B3EB00DCA04F /* LKHomeScreenNavigationControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKHomeScreenNavigationControllerViewController.swift; sourceTree = "<group>"; };
+		53EE48DC26C6B3EB00DCA04F /* LKNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKNavigationController.swift; sourceTree = "<group>"; };
 		53EE48E026C6B9C800DCA04F /* LKLocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKLocationSearchView.swift; sourceTree = "<group>"; };
 		53EE48E426C6BC7C00DCA04F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		53EE48E626C7DFE500DCA04F /* LKLocationSearchView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LKLocationSearchView.xib; sourceTree = "<group>"; };
@@ -100,6 +102,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53147FAE2722AED100D30591 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				53147FAF2722AEEB00D30591 /* LKKnowledgeFeedViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
 		531CBCD92721E04F001BAD1B /* Constants */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,18 +118,18 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
-		531CBCDC2721E1DC001BAD1B /* Location-Provider */ = {
+		531CBCDC2721E1DC001BAD1B /* Location */ = {
 			isa = PBXGroup;
 			children = (
 				531CBCDD2721E1F9001BAD1B /* LKLocationService.swift */,
 			);
-			path = "Location-Provider";
+			path = Location;
 			sourceTree = "<group>";
 		};
 		531CBCDF2721E24D001BAD1B /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				531CBCDC2721E1DC001BAD1B /* Location-Provider */,
+				531CBCDC2721E1DC001BAD1B /* Location */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -192,7 +202,6 @@
 			children = (
 				5358330B26C1656F00ADA436 /* LKHomeViewController.xib */,
 				5358330E26C165C700ADA436 /* LKHomeViewController.swift */,
-				53EE48DC26C6B3EB00DCA04F /* LKHomeScreenNavigationControllerViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -219,6 +228,8 @@
 		53EE48DE26C6B90300DCA04F /* Knowledge Feed */ = {
 			isa = PBXGroup;
 			children = (
+				53EE48DC26C6B3EB00DCA04F /* LKNavigationController.swift */,
+				53147FAE2722AED100D30591 /* View Models */,
 				5358330D26C1658A00ADA436 /* View Controllers */,
 				53EE48DF26C6B93D00DCA04F /* Views */,
 			);
@@ -370,10 +381,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53147FB02722AEEB00D30591 /* LKKnowledgeFeedViewModel.swift in Sources */,
 				531CBCDB2721E091001BAD1B /* LKConstants.swift in Sources */,
 				5358331726C1674100ADA436 /* LKBaseView.swift in Sources */,
 				535832DB26C15F9B00ADA436 /* AppDelegate.swift in Sources */,
-				53EE48DD26C6B3EC00DCA04F /* LKHomeScreenNavigationControllerViewController.swift in Sources */,
+				53EE48DD26C6B3EC00DCA04F /* LKNavigationController.swift in Sources */,
 				5358331C26C17D6400ADA436 /* LKMainItemTableCellView.swift in Sources */,
 				5358330F26C165C700ADA436 /* LKHomeViewController.swift in Sources */,
 				53EE48E126C6B9C800DCA04F /* LKLocationSearchView.swift in Sources */,

@@ -46,7 +46,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
   
   private func openHomeViewController(_ windowScene: UIWindowScene) {
     let homeViewController = LKHomeViewController()
-    let homeNavigationController = LKHomeScreenNavigationControllerViewController(rootViewController: homeViewController)
+    LKNavigationController(rootViewController: homeViewController)
     let win = UIWindow(windowScene: windowScene)
     win.rootViewController = homeViewController
     win.makeKeyAndVisible()

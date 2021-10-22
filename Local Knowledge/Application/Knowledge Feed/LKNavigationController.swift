@@ -1,5 +1,5 @@
 //
-//  LKHomeScreenNavigationControllerViewController.swift
+//  LKNavigationController.swift
 //  Local Knowledge
 //
 //  Created by Dylan on 13/08/2021.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class LKHomeScreenNavigationControllerViewController: LKBaseNavigationController {
+class LKNavigationController: LKBaseNavigationController {
 
     override func viewDidLoad() {
       super.viewDidLoad()
